@@ -2,12 +2,12 @@ meta:
   environment: node
   toolchain:
     name: npm
-    version: "10"
+    version: "18"
 build:
   artifacts:
     "*": /
 run:
   scriptName: index.js
-  command: npm start
+  command: npm run start
   persistenceMount: /data
   containerPort: 80
